@@ -30,8 +30,18 @@
             </div>
 
 
+            <div class="carrossel">
+                <button onclick="mudarSlide(-1)">⟨</button>
+                <img id="imagem" src="imagem1.jpg" alt="Imagem do carrossel">
+                <button onclick="mudarSlide(1)">⟩</button>
+              </div>
+
+
+
+
         </section>
     </main>
+
 
     <footer class="rodape">
         <section class="rodape-logo">
@@ -68,5 +78,21 @@
     </footer>
 
 
+
+
+    <script>
+        const imagens = ["tenis5.jpg", "tenis6.png", "promocao.jpg"];
+        let indice = 0;
+     
+        function mudarSlide(direcao) {
+          indice = (indice + direcao + imagens.length) % imagens.length;
+          document.getElementById("imagem").src = imagens[indice];
+        }
+      </script>
+
+
+
+
 </body>
 </html>
+
