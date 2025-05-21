@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Loja de tênis streetwear personalizados. Modelos criativos, ousados e cheios de identidade pra quem vive o estilo urbano.">
     <link rel="stylesheet" type="text/css" href="style-contato.css">
-    <title>contato</title>
+    <title>Contato</title>
 </head>
 
-<body>
+<body class="pagina-contato">
     <header class="cabecalho">
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="produtos.html" target="_blank">Produtos</a>
@@ -42,9 +42,59 @@
                     <input type="text" id="mensagem" name="mensagem"  class="input-grande"><br>
                     </div>
 
+                    <button class="conteudo-principal-contato-botao" onclick="mostrarCaixa(event)">ENVIAR</button>
+
+                    <div class="caixa-envio" id="caixaEnvio">
+                        <span class="fechar" onclick="fecharCaixa()">X</span>
+                        <h3>Enviado com sucesso</h3>
+                    </div>
+
                 </form>
             </section>
     </main>
+
+    <footer class="rodape">
+        <section class="rodape-logo">
+            <h1 class="rodape-titulo">DropKicks</h1>
+            <img class="rodape-imagem"src="logo.png" alt="imagem do logo">
+        </section>
+
+        <section class="rodape-servicos">
+            <p class="rodape-p1">Institucional:</p>
+            <p class="rodape-p2">Serviços</p>
+            <a class="cabecalho-rodape-item" href="sobre.html" target="_blank">Sobre</a>
+            <a class="cabecalho-rodape-item"href="contato.html" target="_blank">Contato</a>
+        </section>
+
+        <section class="rodape-contatos">
+            <p class="rodape-p3">Entre em contato:</p>
+            <div class="rodape-contatos-p4">
+            <p class="rodape-p4">Instagram</p>
+            <img class="rodape-contatos-instagram" src="instagram.png" alt="logo do Instagram">
+            </div>
+            <div class="rodape-contatos-p5">
+            <p class="rodape-p5">Facebook</p>
+            <img class="rodape-contatos-facebook" src="facebook.png" alt="logo do Facebook">
+            </div>
+            <div class="rodape-contatos-p6">
+            <p class="rodape-p6">Whatsapp</p>
+            <img class="rodape-contatos-whatsapp" src="whatsapp.png" alt="logo do Whatsapp">
+            </div>
+        </section>
+
+    </footer>
+
+    <script>
+   function mostrarCaixa() {
+          event.preventDefault();
+          document.getElementById('caixaEnvio').style.display = 'block';
+        }
+
+        function fecharCaixa() {
+          document.getElementById('caixaEnvio').style.display = 'none';
+        }
+
+    </script>
 
 </body>
 
