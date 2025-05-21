@@ -9,7 +9,7 @@
     <title>Produtos</title>
 </head>
 
-<body>
+<body class="pagina-produtos">
     <header class="cabecalho">
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item" href="produtos.html" target="_blank">Produtos</a>
@@ -17,7 +17,161 @@
             <a class="cabecalho-menu-item" href="contato.html" target="_blank">Contato</a>
         </nav>
     </header>
-    
+    <main class="conteudo-produtos">
+        <h1 class="conteudo-produtos-titulo">NOSSOS PRODUTOS</h1>
+
+        <section class="conteudo-produtos-parte1">
+            <div class="conteudos-produtos-tenis1">
+                <img class="conteudo-produtos-imagem-1" src="tenis1.png" alt="foto do tenis 1">
+                <p>DropKicks - Sketch Bone</p>
+                <p>Preço: R$ 599,90</p>
+            </div>
+            <button class="conteudo-produtos-botao" onclick="mostrarCaixa1()">Ver detalhes</button>
+
+            <div class="caixa-detalhes" id="caixaDetalhes1">
+                <span class="fechar" onclick="fecharCaixa1()">X</span>
+                <h3>Detalhes</h3>
+                <ul class="lista-detalhes">
+                    <li>Design conceitual com recortes que lembram ossos ou pinceladas</li>
+                    <li>Base off-white com detalhes em preto para alto contraste</li> 
+                    <li>Solado robusto e texturizado, com estética handmade</li>
+                    <li>Ideal pra quem curte arte, moda alternativa e estilo autoral</li> 
+                    <li>Super versátil: combina com looks minimalistas ou street mais ousado</li>
+                </ul>
+
+
+            </div>
+
+
+            <div class="conteudos-produtos-tenis2">
+                <img class="conteudo-produtos-imagem-2" src="tenis2.png" alt="foto do tenis 2">
+                <p> DropKicks - Delírio Tropical</p>
+                <p>Preço: R$ 449,90</p>
+                
+            </div>
+            <button class="conteudo-produtos-botao" onclick="mostrarCaixa2()">Ver detalhes</button>
+
+            <div class="caixa-detalhes" id="caixaDetalhes2">
+                <span class="fechar" onclick="fecharCaixa2()">X</span>
+                <h3>Detalhes</h3>
+                <ul class="lista-detalhes">
+                    <li>Arte psicodélica com estampa de vaca em pelúcia sintética</li>
+                    <li>Interior forrado em tie-dye: cada passo é um festival</li> 
+                    <li>Combinação ousada de azul, verde e amarelo com sola verde limão</li>
+                    <li>Tênis feito pra quem chega pra causar</li> 
+                    <li>Ideal pra quem curte moda street com toque divertido e rebelde</li>
+                </ul>
+              </div>
+
+        </section>
+
+        
+        <section class="conteudo-produtos-parte2">
+        <div class="conteudos-produtos-tenis3">
+            <img class="conteudo-produtos-imagem-3" src="tenis3.png" alt="foto do tenis 3">
+            <p>DropKicks - Oceano Criativo</p>
+            <p>Preço: R$ 479,90</p>
+        </div>
+        
+        <button class="conteudo-produtos-botao" onclick="mostrarCaixa3()">Ver detalhes</button>
+
+        <div class="caixa-detalhes" id="caixaDetalhes3">
+            <span class="fechar" onclick="fecharCaixa3()">X</span>
+            <h3>Detalhes</h3>
+            <ul class="lista-detalhes">
+                <li>Estampa aquarela inspirada em grafites e arte de ru</li>
+                <li>Tons de azul, roxo e coral que remetem ao pôr do sol na praia</li> 
+                <li>Sola translúcida e assinatura lateral: vibe de obra de arte</li>
+                <li>Tênis leve, versátil e cheio de atitude urbanal</li> 
+                <li>Perfeito pra quem vive no flow criativo e curte ousar</li>
+            </ul>
+          </div>
+
+        <div class="conteudos-produtos-tenis4">
+            <img class="conteudo-produtos-imagem-4" src="tenis4.png" alt="foto do tenis 4">
+            <p> DropKicks - Neon Rush</p>
+            <p>Preço: R$ 649,90</p>
+        </div>
+        <button class="conteudo-produtos-botao" onclick="mostrarCaixa4()">Ver detalhes</button>
+        <div class="caixa-detalhes" id="caixaDetalhes4">
+            <span class="fechar" onclick="fecharCaixa4()">X</span>
+            <h3>Detalhes</h3>
+            <ul class="lista-detalhes">
+                <li>Design inspirado em tecnologia e cultura urbana</li>
+                <li>Detalhes em neon com sobreposições em preto e branco</li> 
+                <li>Solado tratorado para maior aderência e estilo agressivo</li>
+                <li>Componentes emborrachados e tag lateral que destacam o visual</li> 
+                <li>Ideal pra quem curte ousar e se destacar nas ruas</li>
+            </ul>
+          </div>
+
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <section class="rodape-logo">
+            <h1 class="rodape-titulo">DropKicks</h1>
+            <img class="rodape-imagem"src="logo.png" alt="imagem do logo">
+        </section>
+
+        <section class="rodape-servicos">
+            <p class="rodape-p1">Institucional:</p>
+            <p class="rodape-p2">Serviços</p>
+            <a class="cabecalho-rodape-item" href="sobre.html" target="_blank">Sobre</a>
+            <a class="cabecalho-rodape-item"href="contato.html" target="_blank">Contato</a>
+        </section>
+
+        <section class="rodape-contatos">
+            <p class="rodape-p3">Entre em contato:</p>
+            <div class="rodape-contatos-p4">
+            <p class="rodape-p4">Instagram</p>
+            <img class="rodape-contatos-instagram" src="instagram.png" alt="logo do Instagram">
+            </div>
+            <div class="rodape-contatos-p5">
+            <p class="rodape-p5">Facebook</p>
+            <img class="rodape-contatos-facebook" src="facebook.png" alt="logo do Facebook">
+            </div>
+            <div class="rodape-contatos-p6">
+            <p class="rodape-p6">Whatsapp</p>
+            <img class="rodape-contatos-whatsapp" src="whatsapp.png" alt="logo do Whatsapp">
+            </div>
+        </section>
+
+    </footer>
+
+    <script>
+        function mostrarCaixa1() {
+          document.getElementById('caixaDetalhes1').style.display = 'block';
+        }
+
+        function mostrarCaixa2() {
+          document.getElementById('caixaDetalhes2').style.display = 'block';
+        }
+
+        function mostrarCaixa3() {
+          document.getElementById('caixaDetalhes3').style.display = 'block';
+        }
+
+        function mostrarCaixa4() {
+          document.getElementById('caixaDetalhes4').style.display = 'block';
+        }
+
+        function fecharCaixa1() {
+          document.getElementById('caixaDetalhes1').style.display = 'none';
+        }
+
+        function fecharCaixa2() {
+          document.getElementById('caixaDetalhes2').style.display = 'none';
+        }
+
+        function fecharCaixa3() {
+          document.getElementById('caixaDetalhes3').style.display = 'none';
+        }
+
+        function fecharCaixa4() {
+          document.getElementById('caixaDetalhes4').style.display = 'none';
+        }
+      </script>
 </body>
 
 </html> 
