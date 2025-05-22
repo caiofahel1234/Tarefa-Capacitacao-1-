@@ -23,3 +23,26 @@
   min-height: 100vh;
 }
 
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.cabecalho-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.25rem;
+  justify-content: center;
+}
+
+.cabecalho-menu-item {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
