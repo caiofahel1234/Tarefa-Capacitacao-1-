@@ -14,3 +14,97 @@
     min-height: 100vh;
 }
 
+.cabecalho, .conteudo, .rodape {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 2rem;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 6.25rem;
+}
+
+.cabecalho-menu-item {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.conteudo-produtos {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    flex: 1;
+}
+
+.conteudo-produtos-titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 4rem;
+}
+
+.conteudo-produtos-parte1,
+.conteudo-produtos-parte2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.conteudo-produtos1,
+.conteudo-produtos2,
+.conteudo-produtos3,
+.conteudo-produtos4 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+.conteudo-produtos-imagem-1,
+.conteudo-produtos-imagem-2,
+.conteudo-produtos-imagem-3,
+.conteudo-produtos-imagem-4 {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+}
+
+.conteudo-produtos-botao {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+    font-size: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.875rem;
+}
+
+.conteudos-produtos-tenis1,
+.conteudos-produtos-tenis2,
+.conteudos-produtos-tenis3,
+.conteudos-produtos-tenis4 {
+    font-size: 1.75rem;
+}
+
+.conteudo-produtos-tenis {
+    font-size: 3rem;
+}
