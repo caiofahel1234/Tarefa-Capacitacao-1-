@@ -189,3 +189,63 @@
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 768px) {
+    .cabecalho {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    .cabecalho-menu {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .conteudo-produtos-parte1,
+    .conteudo-produtos-parte2 {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+  
+    .conteudo-produtos1,
+    .conteudo-produtos2,
+    .conteudo-produtos3,
+    .conteudo-produtos4 {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+    }
+  
+    .conteudo-produtos-imagem-1,
+    .conteudo-produtos-imagem-2,
+    .conteudo-produtos-imagem-3,
+    .conteudo-produtos-imagem-4 {
+      max-width: 100%;
+    }
+  
+    .conteudo-produtos-botao {
+      max-width: 100%;
+      font-size: 1.8rem;
+      padding: 1rem;
+    }
+  
+    .rodape {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      text-align: center;
+    }
+  
+    .rodape-logo,
+    .rodape-servicos,
+    .rodape-contatos {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .rodape-titulo {
+      font-size: 2.5rem;
+    }
+  }
+  
