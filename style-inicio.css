@@ -8,3 +8,18 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+.cabecalho, .conteudo, .rodape {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.pagina-inicio {
+  font-size: 100%;
+  background-color: #a09e9ea4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
