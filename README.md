@@ -15,11 +15,11 @@ Dropkicks é um site para criação e personalização de tênis, onde os usuár
 - JavaScript para interação dinâmica  
 - Fonte: Inter, via Google Fonts  
 
-🌎 Demo  
+ Demo  
 Você pode ver o funcionamento do projeto em:  
 https://github.com/caiofahel1234/Tarefa-Capacitacao-1-
 
-⚡ Configuração e Uso  
+Configuração e Uso  
 ### Requisitos  
 - Navegador moderno (Chrome, Firefox, Edge, Safari)  
 
